@@ -1,0 +1,265 @@
+[INFO  - 2021-05-12T02:07:59.372Z] GhostDriver - Main - running on port 53689
+[INFO  - 2021-05-12T02:08:00.042Z] Session [e03e9a80-b2c6-11eb-b2aa-fd4ff84f5c16] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2021-05-12T02:08:00.042Z] Session [e03e9a80-b2c6-11eb-b2aa-fd4ff84f5c16] - page.customHeaders:  - {}
+[INFO  - 2021-05-12T02:08:00.042Z] Session [e03e9a80-b2c6-11eb-b2aa-fd4ff84f5c16] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2021-05-12T02:08:00.043Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: e03e9a80-b2c6-11eb-b2aa-fd4ff84f5c16
+[ERROR - 2021-05-12T02:08:00.819Z] Session [e03e9a80-b2c6-11eb-b2aa-fd4ff84f5c16] - page.onError - msg: TypeError: null is not an object (evaluating 'f.body')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-12T02:08:00.820Z] Session [e03e9a80-b2c6-11eb-b2aa-fd4ff84f5c16] - page.onError - stack:
+  sanitizeHtml (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:406)
+  _getConfig (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:415)
+  a (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:415)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  c (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  each (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/jquery/jquery-3.4.1.min.js:2)
+  each (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/jquery/jquery-3.4.1.min.js:2)
+  _jQueryInterface (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  j (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:402)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:402)
+  execCb (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  check (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  enable (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  enable (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  each (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  enable (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  init (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  sendEvent (:0)
+  _keyEvent (phantomjs://code/inputs.js:325)
+  _pressKey (phantomjs://code/inputs.js:280)
+  _sendKeys (phantomjs://code/inputs.js:237)
+  _postValueCommand (phantomjs://code/webelement_request_handler.js:288)
+  _handle (phantomjs://code/webelement_request_handler.js:72)
+  _reroute (phantomjs://code/request_handler.js:61)
+  _handle (phantomjs://code/session_request_handler.js:120)
+  _reroute (phantomjs://code/request_handler.js:61)
+  _handle (phantomjs://code/router_request_handler.js:78)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-12T02:08:03.849Z] Session [e03e9a80-b2c6-11eb-b2aa-fd4ff84f5c16] - page.onError - msg: TypeError: null is not an object (evaluating 'f.body')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-12T02:08:03.849Z] Session [e03e9a80-b2c6-11eb-b2aa-fd4ff84f5c16] - page.onError - stack:
+  sanitizeHtml (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:406)
+  _getConfig (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:415)
+  a (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:415)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  c (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  each (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/jquery/jquery-3.4.1.min.js:2)
+  each (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/jquery/jquery-3.4.1.min.js:2)
+  _jQueryInterface (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  j (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:402)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:402)
+  execCb (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  check (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  enable (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  enable (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  each (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  enable (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  init (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-12T02:08:03.884Z] Session [e03e9a80-b2c6-11eb-b2aa-fd4ff84f5c16] - page.onError - msg: TypeError: null is not an object (evaluating 'f.body')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-12T02:08:03.884Z] Session [e03e9a80-b2c6-11eb-b2aa-fd4ff84f5c16] - page.onError - stack:
+  sanitizeHtml (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:406)
+  _getConfig (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:415)
+  a (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:415)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  c (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  each (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/jquery/jquery-3.4.1.min.js:2)
+  each (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/jquery/jquery-3.4.1.min.js:2)
+  _jQueryInterface (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/my/:1625)
+  execCb (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  check (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  enable (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  init (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-12T02:08:04.125Z] Session [e03e9a80-b2c6-11eb-b2aa-fd4ff84f5c16] - page.onError - msg: Error: No define call for theme_boost/tooltip
+http://requirejs.org/docs/errors.html#nodefine
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-12T02:08:04.125Z] Session [e03e9a80-b2c6-11eb-b2aa-fd4ff84f5c16] - page.onError - stack:
+  defaultOnError (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  c (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  completeLoad (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  onScriptLoad (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-12T02:08:04.741Z] Session [e03e9a80-b2c6-11eb-b2aa-fd4ff84f5c16] - page.onError - msg: TypeError: null is not an object (evaluating 'f.body')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-12T02:08:04.741Z] Session [e03e9a80-b2c6-11eb-b2aa-fd4ff84f5c16] - page.onError - stack:
+  sanitizeHtml (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:406)
+  _getConfig (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:415)
+  a (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:415)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  c (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  each (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/jquery/jquery-3.4.1.min.js:2)
+  each (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/jquery/jquery-3.4.1.min.js:2)
+  _jQueryInterface (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/my/:5)
+  execCb (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  check (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  enable (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  init (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-12T02:08:04.742Z] Session [e03e9a80-b2c6-11eb-b2aa-fd4ff84f5c16] - page.onError - msg: TypeError: null is not an object (evaluating 'f.body')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-12T02:08:04.742Z] Session [e03e9a80-b2c6-11eb-b2aa-fd4ff84f5c16] - page.onError - stack:
+  sanitizeHtml (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:406)
+  _getConfig (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:415)
+  a (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:415)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  c (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  each (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/jquery/jquery-3.4.1.min.js:2)
+  each (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/jquery/jquery-3.4.1.min.js:2)
+  _jQueryInterface (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/my/:26)
+  execCb (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  check (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  enable (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  init (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-12T02:08:04.743Z] Session [e03e9a80-b2c6-11eb-b2aa-fd4ff84f5c16] - page.onError - msg: TypeError: null is not an object (evaluating 'f.body')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-12T02:08:04.743Z] Session [e03e9a80-b2c6-11eb-b2aa-fd4ff84f5c16] - page.onError - stack:
+  sanitizeHtml (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:406)
+  _getConfig (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:415)
+  a (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:415)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  c (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  each (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/jquery/jquery-3.4.1.min.js:2)
+  each (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/jquery/jquery-3.4.1.min.js:2)
+  _jQueryInterface (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/my/:47)
+  execCb (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  check (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  enable (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  init (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-12T02:08:04.744Z] Session [e03e9a80-b2c6-11eb-b2aa-fd4ff84f5c16] - page.onError - msg: TypeError: null is not an object (evaluating 'f.body')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-12T02:08:04.744Z] Session [e03e9a80-b2c6-11eb-b2aa-fd4ff84f5c16] - page.onError - stack:
+  sanitizeHtml (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:406)
+  _getConfig (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:415)
+  a (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:415)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  c (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  each (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/jquery/jquery-3.4.1.min.js:2)
+  each (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/jquery/jquery-3.4.1.min.js:2)
+  _jQueryInterface (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/my/:68)
+  execCb (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  check (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  enable (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  init (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-12T02:08:04.745Z] Session [e03e9a80-b2c6-11eb-b2aa-fd4ff84f5c16] - page.onError - msg: TypeError: null is not an object (evaluating 'f.body')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-12T02:08:04.745Z] Session [e03e9a80-b2c6-11eb-b2aa-fd4ff84f5c16] - page.onError - stack:
+  sanitizeHtml (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:406)
+  _getConfig (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:415)
+  a (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:415)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  c (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  each (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/jquery/jquery-3.4.1.min.js:2)
+  each (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/jquery/jquery-3.4.1.min.js:2)
+  _jQueryInterface (http://alkhazneh.kingsacademy.edu.jo/lib/requirejs.php/1617363836/core/first.js:411)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/my/:89)
+  execCb (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  check (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  enable (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  init (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+  (anonymous function) (http://alkhazneh.kingsacademy.edu.jo/lib/javascript.php/1617363836/lib/requirejs/require.min.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2021-05-12T02:12:59.394Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T02:17:59.387Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T02:22:59.388Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T02:27:59.389Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T02:32:59.389Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T02:37:59.391Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T02:42:59.389Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T02:47:59.389Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T02:52:59.386Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T02:57:59.388Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T03:02:59.392Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T03:07:59.385Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T03:12:59.392Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T03:17:59.386Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T03:22:59.392Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T03:27:59.391Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T03:32:59.375Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T03:37:59.375Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T03:42:59.375Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T03:47:59.375Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T03:53:00.308Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T03:58:00.308Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T04:03:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T04:08:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T04:13:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T04:18:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T04:23:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T04:28:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T04:33:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T04:38:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T04:43:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T04:48:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T04:53:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T04:58:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T05:03:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T05:08:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T05:13:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T05:18:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T05:23:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T05:28:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T05:33:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T05:38:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T05:43:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T05:48:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T05:53:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T05:58:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T06:03:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T06:08:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T06:13:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T06:18:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T06:23:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T06:28:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T06:33:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T06:38:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T06:43:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T06:48:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T06:53:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T06:58:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-12T07:03:00.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
